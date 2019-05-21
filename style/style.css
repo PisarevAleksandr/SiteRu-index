@@ -1,0 +1,74 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-size: 100%;
+}
+
+#index {
+    background: url(img/bckg.png);
+    color: #0725D3;
+}
+#lang {
+    color: #0725D3;
+    background-color: black;
+    border: none;
+}
+h2 {
+    padding-left: 210px;
+}
+#progs {
+    background: url(img/linux.jpg);
+    color: #CBBA7D;
+}
+#dict{
+    background: url(img/dict.jpg) no-repeat;
+    color: #B1A4B6;
+    font-size: 20px;
+    background-size: cover;
+}
+#dict img {
+    width: 150px;
+    height: 100px;
+}
+#dict a{
+    color: #B1A4B6;
+    font-style: italic;
+}
+#dict a:visited{
+    color: #B1A4B6;
+}
+#dict a:active{
+    color: #B1A4B6;
+}
+#Form {
+    background: url(img/form.jpg);
+    color: #0725D3;
+}
+#mainf {
+    margin-left: 200px
+}
+#menu {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#prv {
+font-style: italic;
+font-size: 64px;
+text-align: center;
+}
+.text.l {
+ text-align: left;
+}
+#comp {
+    width: 400px;
+    float: right;
+}
+.text.r {
+    margin-top: 100px;
+    text-align: right;
+   }
+footer {
+    margin-top: 35px; 
+    text-align: center;
+}

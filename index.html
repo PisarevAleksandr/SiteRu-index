@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Computer</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/minimal-table.css">
+        <script src="script.js"></script>
+    </head>
+    <body id="index">
+        <header>
+                <select name="language" id="lang" onchange="if (this.value) top.location.href=links[this.value];"> 
+                        <option value="Ru">Russian</option> 
+                        <option value="Eng">English</option> 
+                        </select>
+            <a href="/index.html"><input type="radio" name="lang" checked>English</a>
+            <a href="/Ru/index.html"><input type="radio" name="lang">Russian</a>
+
+
+            <!-- prv = preview -->
+            <div id="prv">All about Computer</div>
+            <hr>
+               <p id="menu"> <a href="/Eng/progs.html" target="_blank">[Programs]</a> <a href="/Eng/dict.html" target="_blank">[Dictionary]</a> <a href="/Eng/form.html" target="_blank">[Form]</a> </p>
+            <hr>
+        </header>
+    
+        <p class="text l">On this site you can take any information about computer, it`s program software and prices on computer components</p>
+        <img src="style/img/computer.jpg " alt="Computer" id="comp">
+        <p class="text r">Terminology dictionary will introduce you to computer terms, so you will able to fill the form</p>
+        <table class="build">
+            <tr><th colspan="4">My Build</th></tr>
+            <tr><td>Amount</td><td>Name of product</td><td>Cost by one</td><td>Sum</td></tr>
+            <tr><td>1</td><td>Asus Rog strix RTX2070</td><td>41700</td><td>41700</td></tr>
+            <tr><td>1</td><td>Ryzen 7 2700X</td><td>20225</td><td>20225</td></tr>
+            <tr><td>1</td><td>ASUS ROG strix X470-F</td><td>13180</td><td>13180</td></tr>
+            <tr><td>2</td><td>G.Skill Aegis 8GB</td><td>4300</td><td>8600</td></tr>
+            <tr><td>1</td><td>Be Quiet!Dark Rock Pro 4</td><td>4470</td><td>4470</td></tr>
+            <tr><td>1</td><td>WD Blue 2TB</td><td>3800</td><td>3800</td></tr>
+            <tr><td>1</td><td>Samsung 970 Evo Plus</td><td>5400</td><td>5400</td></tr>
+            <tr><td>1</td><td>be quiet! Straight Power 11</td><td>7400</td><td>7400</td></tr>
+            <tr><td>1</td><td>NZXT H500</td><td>5600</td><td>5600</td></tr>
+            <tr><td colspan="4">full sum: 110375</td></tr>
+        </table>
+        
+       
+        
+        <footer>
+            <address>
+                <a href="mailto:mamoru.kashimoto@mail.ru">E-mail:mamoru.kashimoto@mail.ru</E-mail></a>
+            </address>
+        </footer>
+    </body>
+</html>
